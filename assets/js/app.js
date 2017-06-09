@@ -19,34 +19,36 @@ $(function(){
 	var mostrarFotos = function(sede, contenedor, array){
 		indice = generarAleatorios(array);
 		contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
-		var puntaje = 0;
+		var puntaje = $("#puntaje");
 		var error = 0;
 
-		$("button").click(function(e){
+		$("form").submit(function(e){
 			contClick++;
 			e.preventDefault();
 			var nombre = $("input:text");
 			
 			if(nombre.val().toLowerCase() === array[indice].name.toLowerCase()){
-				puntaje+=5;
-				console.log("birn");
+				puntaje.text(eval(puntaje.val()+5));
+				$(".mensaje").text("Excelente Acertastes");
+				indice = generarAleatorios(array);													
+						setTimeout(function(){
+							contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
+						},1000);
 			}else{
 				if(contClick <= 4){
 					nombre.val("");
 				}else{
 					contClick=0;
-					indice = generarAleatorios(array);
-													
+					indice = generarAleatorios(array);													
 						setTimeout(function(){
-							contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image).fadeIn(2000);
-						},3000);
-						
+							contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
+						},3000);					
 					
-					puntaje--;
+					puntaje.text(eval(puntaje.text()-1));;
 				}
-				console.log("mal");
-				console.log(puntaje);
+				$(".mensaje").text("Sigue Intentando");				
 			}
+			console.log(puntaje);
 		});
 
 	};
@@ -65,3 +67,8 @@ $(function(){
 	
 	
 });
+
+
+var ran = Math.floor(Math.random()*41);
+console.log(ran)
+console.log(peru);

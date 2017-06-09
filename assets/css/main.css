@@ -1,4 +1,5 @@
 img{
 	width: 300px;
 	height: auto;
+	transition: 5s ease-out;
 }
