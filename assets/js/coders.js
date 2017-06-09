@@ -1,0 +1,23 @@
+var coders = [
+	{sede:"chile",name:"anais",img:"anais-araya .jpg"},
+	{sede:"chile",name:"andrea",img:"andrea-miranda.jpg"},
+	{sede:"chile",name:"berenise",img:"berenisse-ríos.jpg"},
+	{sede:"chile",name:"caterina",img:"caterina-da-silva.jpg"},
+	{sede:"chile",name:"daniela",img:"daniela-sanchez.jpg"},
+	{sede:"chile",name:"francisca",img:"francisca-ojeda.jpg"},
+	{sede:"chile",name:"Katerine",img:"katerine-sandoval.jpg"},
+	{sede:"mexico",name:"andrea",img:"andrea-cabrera.jpg"},
+	{sede:"mexico",name:"ariadna",img:"ariadna-izaguirre.jpg"},
+	{sede:"mexico",name:"carito",img:"carito-juarez.jpg"},
+	{sede:"mexico",name:"cristy",img:"cristy-castro.jpg"},
+	{sede:"mexico",name:"karol",img:"karol-orrillo.jpg"},
+	{sede:"mexico",name:"paola",img:"paola-ortiz.jpg"},
+	{sede:"mexico",name:"teresa",img:"teresa-lara.jpg"},
+	{sede:"lima",name:"arantza",img:"arantza-burga.jpg"},
+	{sede:"lima",name:"elizabeth",img:"elizabeth-condori.jpg"},
+	{sede:"lima",name:"grecia",img:"grecia-rayme.jpg"},
+	{sede:"lima",name:"janine",img:"janine-vega.jpg"},
+	{sede:"lima",name:"michelle",img:"michelle-more.jpg"},
+	{sede:"lima",name:"mishel",img:"mishel-velasquez.jpg"},
+	{sede:"lima",name:"rosario",img:"rosario-felix.jpg"}
+];
