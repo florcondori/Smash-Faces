@@ -28,12 +28,15 @@ $(function(){
 			var nombre = $("input:text");
 			
 			if(nombre.val().toLowerCase() === array[indice].name.toLowerCase()){
-				puntaje.text(eval(puntaje.val()+5));
+				contClick=0;
+				nombre.val("");
+				puntaje.text(eval(puntaje.text())+5);
 				$(".mensaje").text("Excelente Acertastes");
 				indice = generarAleatorios(array);													
-						setTimeout(function(){
-							contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
-						},1000);
+				setTimeout(function(){
+					contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
+				},1000);
+
 			}else{
 				if(contClick <= 4){
 					nombre.val("");
@@ -44,7 +47,7 @@ $(function(){
 							contenedorImg.attr("src","assets/img/"+sede+"/"+array[indice].image);
 						},3000);					
 					
-					puntaje.text(eval(puntaje.text()-1));;
+					puntaje.text(eval(puntaje.text())-1);;
 				}
 				$(".mensaje").text("Sigue Intentando");				
 			}
@@ -67,8 +70,3 @@ $(function(){
 	
 	
 });
-
-
-var ran = Math.floor(Math.random()*41);
-console.log(ran)
-console.log(peru);
