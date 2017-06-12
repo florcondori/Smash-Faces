@@ -14,22 +14,22 @@ var mexico = [{
               image: "Beatriz Quesadas.JPG",
               name: "Beatriz"
             },{
-              image: "Claudia Hernández.JPG",
+              image: "Claudia Hernandez.JPG",
               name: "Claudia"
             },{
-              image: "Daniela Belem García.JPG",
+              image: "Daniela Belem Garcia.JPG",
               name: "Daniela"
             },{
               image: "Elisa Guadalupe Martínez.JPG",
               name: "Elisa"
             },{
-              image: "Evelyn Vázquez.JPG",
+              image: "Evelyn Vazquez.JPG",
               name: "Evelyn"
             },{
               image: "Gabriela Peñaloza.JPG",
               name: "Gabriela"
             },{
-              image: "Grissel Coutiño.JPG",
+              image: "Grissel Coutino.JPG",
               name: "Grissel"
             },{
               image: "Guadalupe Guerrero.JPG",
@@ -38,10 +38,10 @@ var mexico = [{
               image: "Johana Alexa Vargas.JPG",
               name: "Johana"
             },{
-              image: "Joyce Zeltzin Hernández.JPG",
+              image: "Joyce Zeltzin Hernandez.JPG",
               name: "Joyce"
             },{
-              image: "Juana Ofelia García.JPG",
+              image: "Juana Ofelia Garcia.JPG",
               name: "Juana"
             },{
               image: "Karen A. Sharon De Diego.JPG",
@@ -62,7 +62,7 @@ var mexico = [{
               image: "Leslie Anigail Vazquez.JPG",
               name: "Leslie"
             },{
-              image: "Lilian Mishel Martínez.JPG",
+              image: "Lilian Mishel Martinez.JPG",
               name: "Lilian"
             },{
               image: "Milca Sarai Del Angel.JPG",
@@ -77,13 +77,13 @@ var mexico = [{
               image: "Nelly Montserrat Saavedra.JPG",
               name: "Nelly"
             },{
-              image: "Reyna Hernández.JPG",
+              image: "Reyna Hernandez.JPG",
               name: "Reyna"
             },{
-              image: "Rubí Adriana Santiago.JPG",
+              image: "Rubi Adriana Santiago.JPG",
               name: "Rubi"
             },{
-              image: "Ruth López.JPG",
+              image: "Ruth Lopez.JPG",
               name: "Ruth"
             },{
               image: "Ruth Zacnicte Vega.JPG",
@@ -92,8 +92,8 @@ var mexico = [{
               image: "Sandra Bollo.JPG",
               name: "Sandra"
             },{
-              image: "Sandra Díaz.JPG",
-              name: "Sandra Díaz"
+              image: "Sandra Diaz.JPG",
+              name: "Sandra Diaz"
             },{
               image: "Vianey Tavatha Moreno.JPG",
               name: "Vianey"
